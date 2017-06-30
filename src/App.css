@@ -22,3 +22,42 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.nav {
+  height: 50px;
+  background-color: #28211c;
+}
+
+.logo {
+  margin: 5px;
+  width: 100px;
+}
+
+.editor .CodeMirror {
+  height: 700px;
+}
+
+#control-bar {
+  margin: 15px;
+}
+
+.code_area {
+  height: 700px;
+  border-right: 3px solid #ccc
+}
+
+.logo_str {
+  color: #a50201;
+  margin-left: 15px;
+  /*color: white;*/
+  font-size: 36px;
+  /*font-weight: bold;*/
+  font-family: "Monoton script=latin rev=3";
+}
+@font-face {
+  font-family: 'Monoton script=latin rev=3';
+  font-style: normal;
+  font-weight: 400;
+  src:   url(https://fonts.gstatic.com/s/monoton/v6/au96iQ3WM1J9H5fMga5i0QLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
