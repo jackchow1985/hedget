@@ -6,13 +6,20 @@
     "react-scripts": "1.0.8"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "axios": "^0.16.2",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
     "react": "^15.6.1",
+    "react-ace": "^5.0.1",
     "react-bootstrap": "^0.31.0",
     "react-codemirror": "^1.0.0",
     "react-dom": "^15.6.1",
     "react-highcharts": "^12.0.0",
-    "react-stockcharts": "^0.6.1"
+    "react-icons": "^2.2.5",
+    "react-stockcharts": "^0.6.1",
+    "react-table": "^6.5.1",
+    "spectre.css": "^0.2.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,5 +27,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://live.hkfdt.cn:8081/"
+  "proxy": "http://alpha03:8888/"
 }
